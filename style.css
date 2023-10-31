@@ -1,0 +1,20 @@
+div{
+    display: flex;
+    justify-content: center;
+}
+
+h3::first-letter{
+    font-size: 200%;
+}
+
+h1{
+    border-bottom: 5px orange groove;
+    border-right: 5px orange groove;
+    border-left: 5px orange groove;
+}
+
+ul{
+    border: 5px black double;
+    border-radius: 15px;
+    list-style-image: url(capelo.png);
+}
