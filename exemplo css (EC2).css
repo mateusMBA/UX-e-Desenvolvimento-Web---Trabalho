@@ -5,7 +5,7 @@ table th {
 
 /* Estilize as células das linhas pares */
 table tr:nth-child(even) {
-    background-color: #33ff00; /* Laranja */
+    background-color: #ff00bf; /* Laranja */
 }
 
 
