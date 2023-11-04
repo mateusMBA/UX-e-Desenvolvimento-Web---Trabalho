@@ -5,12 +5,12 @@ table th {
 
 /* Estilize as células das linhas pares */
 table tr:nth-child(even) {
-    background-color: #ffa500; /* Laranja */
+    background-color: #33ff00; /* Laranja */
 }
 
 
 table tr:nth-child(odd) {
-    background-color: #ffff00; /* Amarelo */
+    background-color: #1eff00; /* Amarelo */
 }
 
 
