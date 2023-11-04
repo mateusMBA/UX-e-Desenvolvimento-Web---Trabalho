@@ -1,14 +1,26 @@
+table th {
+    background-color: #ff0000; /* Vermelho */
+    color: #fff; /* Texto branco */
+}
+
+/* Estilize as células das linhas pares */
+table tr:nth-child(even) {
+    background-color: #ffa500; /* Laranja */
+}
+
+
+table tr:nth-child(odd) {
+    background-color: #ffff00; /* Amarelo */
+}
+
+
+table td {
+    padding: 15px; 
+}
+
+
 table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-}
-
-th {
-    background-color: #5581d3;
+    width: 80%; 
+    margin: 0 auto; 
+    border-collapse: collapse; 
 }
